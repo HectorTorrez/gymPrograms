@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
-import { Navbar } from './Navbar'
+import { Navbar } from '../components/Navbar'
 import { programs } from '../data/data'
-import { ProgramCard } from './ProgramCard'
+import { ProgramCard } from '../components/ProgramCard'
 
 export function ProgramDescription (): JSX.Element {
   const { id } = useParams<{ id: string }>()

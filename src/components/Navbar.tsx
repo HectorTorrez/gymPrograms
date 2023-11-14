@@ -9,10 +9,10 @@ export function Navbar (): JSX.Element {
             <p><Home/></p>
             HOME
           </Link>
-          <li className="flex flex-col items-center font-semibold">
+          <Link to='/auth' className="flex flex-col items-center font-semibold" >
             <p><Profile/></p>
             PROFILE
-          </li>
+          </Link>
         </ul>
       </nav>
   )

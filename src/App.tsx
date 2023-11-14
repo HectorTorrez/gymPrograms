@@ -1,5 +1,5 @@
 import { Navbar } from './components/Navbar'
-import { PorgramsList } from './components/ProgramsList'
+import { PorgramsList } from './pages/ProgramsList'
 
 export function App (): JSX.Element {
   return (

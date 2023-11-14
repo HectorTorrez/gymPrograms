@@ -1,4 +1,4 @@
-import { ProgramCard } from './ProgramCard'
+import { ProgramCard } from '../components/ProgramCard'
 import { programs } from '../data/data'
 
 export function PorgramsList (): JSX.Element {
