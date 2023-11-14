@@ -12,11 +12,13 @@ export function ProgramDescription (): JSX.Element {
   return (
     <div>
         <Navbar/>
+
         {
-            filter.map(item => {
-              return <ProgramCard key={item.id} item={item}/>
-            })
+          filter.map(item => {
+            return <ProgramCard key={item.id} item={item} xl={true}/>
+          })
         }
+
     </div>
   )
 }

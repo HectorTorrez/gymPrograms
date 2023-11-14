@@ -7,9 +7,9 @@ export function App (): JSX.Element {
     <section className=" h-100px  lg:top-0 bg-white lg:h-[100px] w-full">
       <Navbar/>
     </section>
-    <section className='mx-5 '>
+
       <PorgramsList/>
-    </section>
+
     </>
   )
 }
