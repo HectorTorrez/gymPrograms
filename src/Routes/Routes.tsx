@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { App } from '../App'
-import { ProgramDescription } from '../components/ProgramDescription'
+import { ProgramDescription } from '../pages/ProgramDescription'
+import { Auth } from '../pages/Auth'
 
 export const router = createBrowserRouter([
   {
@@ -10,5 +11,9 @@ export const router = createBrowserRouter([
   {
     path: '/programDescription/:id',
     element: <ProgramDescription/>
+  },
+  {
+    path: 'auth',
+    element: <Auth/>
   }
 ])
